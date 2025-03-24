@@ -1,0 +1,14 @@
+ 1. Normalization vs. Standardization:
+
+- Normalization: Scales data to a specific range (e.g., 0 to 1). Useful for algorithms like K-Nearest Neighbors or neural networks that are sensitive to the scale of data.
+  
+- Standardization: Centers data to have a mean of 0 and a standard deviation of 1. Useful for algorithms like linear regression or logistic regression that assume normally distributed data.
+
+ 2. Techniques to Address Multicollinearity in Multiple Linear Regression:
+
+ -Remove highly correlated features: Identify and eliminate one of the correlated features.
+ -Principal Component Analysis (PCA): Reduce the number of correlated features into uncorrelated components.
+ -Ridge Regression: Apply L2 regularization to shrink the impact of correlated features.
+ -Lasso Regression: Apply L1 regularization to perform feature selection by removing correlated variables.
+ -Variance Inflation Factor (VIF): Identify and remove features with high VIF to reduce multicollinearity.
+ -Domain Knowledge: Use expert knowledge to remove or combine features that are redundant.
